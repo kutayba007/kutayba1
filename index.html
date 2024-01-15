@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head>
+    <style>
+        .full {
+            position: relative;
+        }
+
+        .container,
+        .right {
+            position: relative;
+            z-index: 2;
+        }
+
+        .full .image img {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .right {
+            text-align: center;
+            color: rgb(0, 0, 0); /* Assuming white text for better visibility on the background */
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .Contact,
+        .Skills {
+            flex: 1;
+            text-align: center;
+        }
+
+        .Contact p,
+        .Skills ul {
+            margin: 15px;
+        }
+
+        .Language,
+        .Hobbies {
+            flex: 2;
+            text-align: center;
+        }
+
+        .Language p,
+        .Hobbies ul {
+            margin: 15px;
+            padding: 0;
+        }
+
+        .right {
+            text-align: center;
+        }
+
+        .Education table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .Education th, .Education td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="full">
+        <div class="image">
+            <img src="img/img.jpg" alt="yok" style="width: 100px;" height="100px">
+        </div>
+    </div>
+
+    <div class="full">
+        <div class="image">
+            <img src="img/img.jpg">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="Contact">
+            <!-- Contact content -->
+        </div>
+
+        <div class="Skills">
+            <!-- Skills content -->
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="Language">
+            <!-- Language content -->
+        </div>
+
+        <div class="Hobbies">
+            <!-- Hobbies content -->
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="name">
+            <h1> kutayba</h1>
+        </div>
+        <div class="title">
+            <h3>Your Title</h3>
+        </div>
+        <div class="Summary">
+            <p>Your Summary</p>
+        </div>
+        <div class="Experience">
+            <p>Your Experience</p>
+        </div>
+        <div class="Education">
+            <p>Your Education</p>
+        </div>
+        <div class="project">
+            <p>Your Projecksdfhsdgdsdsgsgsdts</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
